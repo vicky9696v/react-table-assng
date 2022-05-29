@@ -1,0 +1,64 @@
+.pop-up {
+    height: 100%;
+    width: 50vw;
+}
+
+.form-container {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    width: 520px;
+    
+}
+
+.input {
+    height: 37px;
+    width: 450px;
+    border: 1px solid #000;
+    outline: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.label {
+  margin: 0px;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.buttons-container {
+    margin-top: 10px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto";
+}
+
+.submit-button {
+    height: 40px;
+    width: 48%;
+    cursor: pointer;
+    outline: none;
+    border: transparent;
+    border-radius: 7px;
+    font-size: 18px;
+    font-family: "Roboto";
+
+
+}
+
+.button {
+    height: 40px;
+    width: 150px;
+    margin-bottom: 5px;
+    font-family: "Lobster";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
